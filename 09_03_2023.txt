@@ -1,0 +1,7 @@
+CREATE VIEW "IdentityPublic" as (
+SELECT "FirstName", "LastName, "Gender", "Email"
+FROM "IdentityCard");
+
+CREATE VIEW "MoviePreview" as (
+SELECT "MovieName", "Genre", "RentalCost", "RentalDuration"
+FROM "Movie");
